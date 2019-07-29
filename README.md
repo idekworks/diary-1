@@ -1,2 +1,2 @@
-# Git-analysis-of-others
+# diary
 日々気づいたことや覚えておきたいことをissuesにまとめる。
