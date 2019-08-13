@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% block body %}
+
+<h2>{{ the_title }}</h2>
+
+<p>以下のデータを送信しました</p>
+<table>
+<tr><td>phrase:</td><td>{{ the_phrase }}</td></tr>
+<tr><td>character:</td><td>{{ the_letters }}</td></tr>
+</table>
+
+<p>{{ the_tabel }}から{{ the_letters }}を検索すると、次の結果を返します</p>
+<h3>{{ the_results }}</h3>
+
+{% endblock %}
